@@ -10,9 +10,17 @@ class Gallery extends React.Component {
 <h2> Gallery Title Placer</h2>
     <li><Link
      to={{
-        pathname:'/Gallery'
+        pathname:'/Whatever'
     }} className="active"
->Gallery</Link></li>
+>WhateverLink</Link></li>
+
+    <li><Link 
+    style={{
+    color:'maroon',
+     textDecoration:'underline'}} 
+     to={{
+        pathname:'/SubLink'
+    }}>SubLink</Link></li>
 
 <Route 
 path="/Gallery" 

@@ -1,3 +1,9 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
 /* create styles to be minimal for import building  */
 /* App defaulted to black and white read text*/
 /* Containers to be three defaulted to black and white read text*/
@@ -17,7 +23,7 @@ color:yellow;
 Link {
   width:25%;
   height:800px;
-  color:black;
+  color:#ccc;
 
 }
 .Home, html{
@@ -25,17 +31,16 @@ Link {
 
 }
 h1{
-  color:black;
+  background: maroon;
+  color:white;
 }
 .Container {
   background-color: #ccc;
-  padding: 100px;
-  padding-left: 25%;
-  width:100%;
+  width:25%;
   height:2000px;
   box-shadow: 0 3px 4px #ccc;
 }
-.Gallery, .Art {
+.Gallery {
   color:#000;
   padding: 100px;
   padding-left: 25%;
@@ -46,13 +51,11 @@ h1{
 }
 
 .Navigation {
-  background: #ccc !important;
+  background: #222 !important;
   height: 200px;
   width:100%;
   padding: 20px;
-  padding: 100px;
-  padding-left: 25%;
-  color: black !important;
+  color: white !important;
 }
 
 .App-title {
@@ -62,12 +65,10 @@ h1{
 .App-logo{
   font-size: large;
 }
-.App-intro{
-  background:#ccc;
-  padding-left:25%;
-}
+
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+

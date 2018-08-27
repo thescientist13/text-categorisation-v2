@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import Home from './views/Home';
+import Home from './Views/Home';
 import { BrowserRouter} from 'react-router-dom';
 
 class App extends Component {
@@ -9,6 +9,7 @@ class App extends Component {
       <div>
       <BrowserRouter>
       <Home/>
+     
       </BrowserRouter>
       </div>
     );
