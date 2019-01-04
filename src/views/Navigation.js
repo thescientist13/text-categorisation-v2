@@ -1,8 +1,8 @@
 import React from 'react';
 import '../App.css';
 import { Route , Link} from 'react-router-dom';
-import TextApi from '../Components/Text_API.js';
-import Gallery from '../Components/Gallery';
+import TextApi from '../components/Text_API.js';
+import Gallery from '../components/Gallery';
 import Drawer from 'material-ui/Drawer';
 import MenuItem from 'material-ui/MenuItem';
 import FontIcon from 'material-ui/FontIcon';
